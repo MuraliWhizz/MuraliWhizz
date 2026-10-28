@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#00f5ff" stop-opacity="0"/><stop offset=".25" stop-color="#00f5ff"/><stop offset=".5" stop-color="#a78bfa"/><stop offset=".75" stop-color="#ff2ec4"/><stop offset="1" stop-color="#ff2ec4" stop-opacity="0"/></linearGradient>
+<linearGradient id="pulse" gradientUnits="userSpaceOnUse" x1="0" x2="200"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/><animateTransform attributeName="gradientTransform" type="translate" values="-200 0;1200 0" dur="3.5s" repeatCount="indefinite"/></linearGradient>
+<filter id="gl" x="-20%" y="-300%" width="140%" height="700%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<line x1="40" y1="20" x2="1160" y2="20" stroke="url(#g)" stroke-width="2" filter="url(#gl)"/>
+<line x1="40" y1="20" x2="1160" y2="20" stroke="url(#pulse)" stroke-width="3"/>
+<g transform="translate(600,20)"><rect x="-8" y="-8" width="16" height="16" fill="#0b0630" stroke="#00f5ff" stroke-width="2" transform="rotate(45)" filter="url(#gl)"><animateTransform attributeName="transform" type="rotate" values="45;405" dur="8s" repeatCount="indefinite"/></rect><circle r="3" fill="#ff2ec4"><animate attributeName="r" values="2;4;2" dur="1.6s" repeatCount="indefinite"/></circle></g>
+</svg>
