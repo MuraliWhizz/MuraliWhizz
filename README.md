@@ -56,7 +56,7 @@
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MuraliWhizz&bg_color=0d0221&color=00f5ff&line=ff2ec4&point=ffffff&area=true&area_color=7b2ff7&hide_border=true&title_color=00f5ff" alt="Contribution graph" width="95%"/>
+<img src="https://raw.githubusercontent.com/MuraliWhizz/MuraliWhizz/output/activity.svg?v=2" alt="Contribution graph" width="95%"/>
 
 </div>
 
